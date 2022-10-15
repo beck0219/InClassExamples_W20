@@ -32,6 +32,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
+        CheckBox cb = findViewById( R.id.WatchedCheckBox);
+        cb.setOnCheckedChangeListener( (compoundButton, isChecked ) -> {
+            if (isChecked) {
+                Snackbar.make(cb, getResources().getString(R.string.checkbox_on),
+                                Snackbar.LENGTH_LONG)
+                        .setAction("Undo", click-> compoundButton.setChecked( false ))
+                        .show();
+            } else {
+                Snackbar.make(cb, getResources().getString(R.string.checkbox_off),
+                                Snackbar.LENGTH_LONG)
+                        .setAction("Undo", click-> compoundButton.setChecked( true ))
+                        .show();
+            }
+        });
+
+
     }
     public void toast(String msg){
         Context context = (Context) getApplicationContext();
@@ -39,8 +57,8 @@ public class MainActivity extends AppCompatActivity {
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
-
     }
+
 
 
 }

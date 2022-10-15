@@ -15,4 +15,6 @@
 <!--    My Strings      -->
     <string name="love_statement">I love Android</string>
     <string name="toast_message">Label has been updated.</string>
+    <string name="checkbox_on">The Checkbox is now on</string>
+    <string name="checkbox_off">The Checkbox is now off</string>
 </resources>
