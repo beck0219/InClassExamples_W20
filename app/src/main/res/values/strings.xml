@@ -12,7 +12,7 @@
     <string name="item5">5</string>
     <string name="item6">6</string>
     <string name="item7">7</string>
-<!--    My Strings      -->
+    <!--    My Strings      -->
     <string name="love_statement">I love Android</string>
     <string name="toast_message">Label has been updated.</string>
     <string name="checkbox_on">The Checkbox is now on</string>
