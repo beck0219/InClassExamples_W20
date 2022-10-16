@@ -17,4 +17,10 @@
     <string name="toast_message">Label has been updated.</string>
     <string name="checkbox_on">The Checkbox is now on</string>
     <string name="checkbox_off">The Checkbox is now off</string>
+    <!--  MY STRINGS 2  -->
+    <string name="name_request">Enter your name</string>
+    <string name="next_button">NEXT</string>
+    <string name="welcome_name">Welcome \u0020</string>
+    <string name="dontcallmethatbutton">DON\'T CALL ME THAT</string>
+    <string name="thankyoubutton">THANK YOU</string>
 </resources>
