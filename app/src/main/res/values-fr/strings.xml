@@ -11,4 +11,9 @@
     <string name="welcome_name">Bienvenu \u0020</string>
     <string name="dontcallmethatbutton">NE M\'APPELLE PAS ÇA</string>
     <string name="thankyoubutton">Merci</string>
+    <!--    MY STRINGS 3 -->
+    <!--    <string name=""></string>-->
+    <string name="typehere">Écrivez ici</string>
+    <string name="urgent">Urgente</string>
+    <string name="add">AJOUTER</string>
 </resources>
