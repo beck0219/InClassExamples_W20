@@ -25,6 +25,7 @@ public class TodoListAdapter extends ArrayAdapter<ToDo>{
         String todo = getItem(position).getTodo();
         boolean urgent = getItem(position).getUrgent();
         ToDo toDo = new ToDo(todo,urgent);
+
         LayoutInflater inflater = LayoutInflater.from(mContext);
         convertView = inflater.inflate(mResource, parent, false);
         TextView tvTodo = (TextView) convertView.findViewById(R.id.textView1);
