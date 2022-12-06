@@ -3,4 +3,17 @@
     <string name="hello"> Hello french people</string>
     <string name="love_statement">j\'aime androïde</string>
     <string name="toast_message">Le libellé a été mis à jour</string>
-    </resources>
+    <string name="checkbox_on">La case à cocher est maintenant activée</string>
+    <string name="checkbox_off">La case à cocher est maintenant désactivée</string>
+    <!--  MY STRINGS 2  -->
+    <string name="name_request">Entrez votre nom</string>
+    <string name="next_button">SUIVANT</string>
+    <string name="welcome_name">Bienvenu \u0020</string>
+    <string name="dontcallmethatbutton">NE M\'APPELLE PAS ÇA</string>
+    <string name="thankyoubutton">Merci</string>
+    <!--    MY STRINGS 3 -->
+    <!--    <string name=""></string>-->
+    <string name="typehere">Écrivez ici</string>
+    <string name="urgent">Urgente</string>
+    <string name="add">AJOUTER</string>
+</resources>
